@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <title>Facelet Title</title>
+    </h:head>
+    <h:body>
+        <h:form>
+        Datos Recibidos<br/>
+        APELLIDOS:<h:outputText value="#{personaManagedBean.apellidos}"/><br/>
+        NOMBRES:  <h:outputText value="#{personaManagedBean.nombres}"/><br/>
+        CELULAR:  <h:outputText value="#{personaManagedBean.celular}"/><br/>
+        
+<!--        SUMA: <h:outputText value="#{personaManagedBean.suma()}"/><br/>
+        RESTA: <h:outputText value="#{personaManagedBean.resta()}"/><br/>
+        MULTIPLICACION: <h:outputText value="#{personaManagedBean.multiplicar()}"/><br/>
+        DIVISION: <h:outputText value="#{personaManagedBean.division()}"/><br/>
+        POTENCIA: <h:outputText value="#{personaManagedBean.potencia()}"/><br/>
+        RAIZ NRO 1: <h:outputText value="#{personaManagedBean.raizNro1()}"/><br/>
+        RAIZ NRO 2: <h:outputText value="#{personaManagedBean.raizNro2()}"/><br/>-->
+        
+        <h:commandLink action="envia" value="Regresar"/>
+        </h:form>
+    </h:body>
+</html>
+
